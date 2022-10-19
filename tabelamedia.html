@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Média dos Alunos</title>
+
+    <style>
+        #aval {
+            border: 1px solid;
+            border-color: black;
+        }
+        
+        #aval tr {
+            background-color: aliceblue;
+            border-color: white;
+            border-collapse: collapse;
+        }
+
+        #aval tr:hover {
+            background-color: aquamarine;
+        }
+
+        #aval th {
+            background-color: rgb(208, 179, 249);
+            color: black;
+            padding: 10px;
+        }
+
+        #aval td:nth-child(5) {
+            background-color: beige;
+            padding: 5px;
+            text-align: center;
+        }
+
+        #media {
+            background-color: rgb(139, 241, 163);
+            text-align: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h2>Média dos alunos:</h2>
+    <table id="aval">
+        <tr>
+            <th>Aluno</th>
+            <th>Frequência</th>
+            <th>Primeira nota</th>
+            <th>Segunda nota</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td>Claudislânia</td>
+            <td>100%</td>
+            <td>7.0</td>
+            <td>5.0</td>
+            <td>6.0</td>
+        </tr>
+        <tr>
+            <td>Inteligencius</td>
+            <td>200%</td>
+            <td>10.0</td>
+            <td>10.0</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td>Faltiane</td>
+            <td>5%</td>
+            <td>1.0</td>
+            <td>3.0</td>
+            <td>2.0</td>
+        </tr>
+        <tr>
+            <td colspan="4">Média</td>
+            <td id="media">6.0</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
